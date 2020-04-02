@@ -1,48 +1,29 @@
 import React from 'react'
 import { Col, Row, Form } from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
-
-const formStyle = {
-  margin: '50px',
-  textAlign: 'center',
-  display: 'flex', 
-  justifyContent: 'center'
-  };
-
-const textStyle = {
-
-}
-
-const inputStyle = {
-  width: '100%',
-  height: '30px',
-  marginBottom: '20px',
-}
-
-const FlexForm = () => {
+const App = () => {
   return (
-    <div style={formStyle}>
-      <Form>
-        <Form.Group as={Row} controlId="name">
-          <Form.Label column sm="2">
-            Name
-          </Form.Label>
-          <Col>
-            <Form.Control style={inputStyle}/>
-          </Col>
-        </Form.Group>
-        <Form.Group as={Row}  controlId="email">
-          <Form.Label column sm="2">
-            Email
-          </Form.Label>
-          <Col>
-            <Form.Control style={inputStyle}/>
-          </Col>
-        </Form.Group>
-      </Form>
-    </div>
+    <>
+      <header>
+        <h1>Header</h1>
+      </header>
+      <nav>
+        Home, Profile, Search Jobs
+      </nav>
+      <main>
+        <article>
+          <h2>Why choose us</h2>
+        </article>
+        <aside>
+          <h2>Related</h2>
+        </aside>
+      </main>
+      <footer>
+        terms and conditions, copyright, careers, about us
+      </footer>
+    </>
   )
 }
 
-export default FlexForm
+export default App
