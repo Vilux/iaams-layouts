@@ -2,6 +2,10 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import HeaderContent from './HeaderContent'
 import { createUseStyles } from 'react-jss'
+import EmployerDashboard from './EmployerDashboardLayout'
+import GridLayout from './GridLayout'
+import JobSeekerDashboard from './JobSeekerDashboardLayout'
+import HomepageLayout from './HomepageLayout'
 
 const useStyles = createUseStyles({
   page: {
@@ -30,7 +34,7 @@ const App = () => {
       </header>
       <main>
         <article className={classes.body}>
-          <h2>Why choose us</h2>
+          <HomepageLayout/>
         </article>
         <aside>
           <h2>Related</h2>

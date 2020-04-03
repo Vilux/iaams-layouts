@@ -1,14 +1,19 @@
 import React from 'react'
 import logo from './logo.svg'
 import { Col, Row, Container } from 'react-bootstrap'
+import { createUseStyles } from 'react-jss'
 
-const navStyle = {
-  marginTop: '15px',
-  marginBottom: '15px',
-  fontFamily: 'Barlow-Bold'
-}
+
+const useStyles = createUseStyles({
+  nav: {
+    marginTop: '15px',
+    marginBottom: '15px',
+    fontFamily: 'Barlow-Bold'
+  }
+})
 
 const HeaderContent = () => {
+  const classes = useStyles()
   return (
     <>
       <Container>
@@ -20,7 +25,7 @@ const HeaderContent = () => {
             <h1>Iaam</h1>
           </Col>
           <Col>
-            <nav style={navStyle}>
+            <nav className={classes.nav}>
               Job Seekers, Employers, FAQs, Why Iaam
             </nav>
           </Col>
