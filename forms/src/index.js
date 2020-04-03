@@ -3,6 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './fonts/Barlow-Black.ttf'
+import './fonts/Barlow-Bold.ttf'
+import './fonts/Barlow-Regular.ttf'
+import './fonts/Barlow-Italic.ttf'
+import './fonts/Barlow-BlackItalic.ttf'
+import './fonts/Barlow-BoldItalic.ttf'
 
 ReactDOM.render(
   <React.StrictMode>

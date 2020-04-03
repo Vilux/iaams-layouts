@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Barlow-Black';
+  src: local('Barlow-Black'), url(./fonts/Barlow-Black.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow-Bold';
+  src: local('Barlow-Bold'), url(./fonts/Barlow-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow-Regular';
+  src: local('Barlow-Regular'), url(./fonts/Barlow-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow-BlackItalic';
+  src: local('Barlow-BlackItalic'), url(./fonts/Barlow-BlackItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow-BoldItalic';
+  src: local('Barlow-BoldItalic'), url(./fonts/Barlow-BoldItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow-Italic';
+  src: local('Barlow-Italic'), url(./fonts/Barlow-Italic.ttf) format('truetype');
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Col, Row, Form } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import logo from './logo.svg';
 
 const pageStyle = {
   margin: '50px',
@@ -13,25 +14,31 @@ const pageStyle = {
 
 const navStyle = {
   marginTop: '15px',
-  marginBottom: '15px'
+  marginBottom: '15px',
+  fontFamily: 'Barlow-Bold'
 }
 
 const bodyStyle = {
   marginBottom: '15px'
 }
+
 const footerStyle = {
   position:'absolute',
   bottom:'0',
 }
 
+const headerStyle = {
+  fontFamily: 'Barlow-Black'
+}
+
 const App = () => {
   return (
     <div style={pageStyle}>
-      <header>
+      <header style={headerStyle}>
         <h1>Header</h1>
       </header>
       <nav style={navStyle}>
-        Home, Profile, Search Jobs
+      <img src={logo}></img> Job Seekers, Employers, FAQs, Why Iaam
       </nav>
       <main>
         <article style={bodyStyle}>
